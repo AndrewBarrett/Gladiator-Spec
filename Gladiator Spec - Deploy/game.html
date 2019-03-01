@@ -1,0 +1,181 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Acme|Arvo|Fjalla+One|Heebo|Josefin+Sans|Merriweather+Sans|Nova+Flat|Poppins|Roboto+Condensed|Varela+Round"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/game.css">
+
+    <title>Garrow's Gladiator Spec</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR SECTION -->
+    <div id="gladiator-navbar" class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+                <a class="mx-auto" href="index.html">
+                    <img src="resources/images/logo.png" id="navbar-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="game.html">Play Game</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="guide.html">Guide</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="game-container" class="container">
+        <div class="row">
+
+        <div class="gm4html5_div_class" id="gm4html5_div_id">
+            <!-- Create the canvas element the game draws to -->
+            <canvas id="canvas" width="1120" height="630">
+                <p>Your browser doesn't support HTML5 canvas.</p>
+            </canvas>
+        </div>
+
+
+
+
+
+        </div>
+    </div>
+
+        <!-- ABOUT SECTION -->
+        <div id="quick-container" class="container">
+         
+            <h1>Quick Start & Known Bugs</h1>
+            <hr class="my-4 jumbotron-hr">
+
+            <h4>Playing the Sim</h4>
+            <p class="quick-text">
+            To get started wait for the sim to load, hit the menu option "Gladiator Spec Sim" and you will be presented
+            with the main interface. Click on a target dummy which will highlight it and hit charge (default keybind: Z) - 
+            this will begin auto attacks and start filling up the rage bar allowing you to use abilities.
+            </p>
+
+            <p class="quick-text">
+            For an explanation of the mechanics of each ability take a look at the guide which is linked at the top of the page.
+            
+            </p>
+
+            <h4>Keybinds</h4>
+            <p class="quick-text">
+            The default keybinds have been setup to be the same as what I use in the live game. I've been told many times
+            by my guildies that my keybinds are fucked up and I suspect that there's a high chance you might agree. If you
+            go into the settings section from the main menu most of it hasn't been built yet but the keybinding section
+            fortunately has.
+            </p>
+
+            <p class="quick-text">
+            To change a keybind click the relevant button you want to rebind, mouse over the "KEYBIND" frame so it is highlighted,
+            hit the keybind you want to change it to (A-Z, 0-9), and then hit the "Set Keybind" button. Note that there is support
+            for Modifiers (CTRL, SHIFT, ALT) but they will not function when the sim is being played through a browser.
+            </p>
+
+            <h4>Bugs</h4>
+            <p class="quick-text">
+            It's been a long time since I've coded anything so please accept my apologies for some pretty rusty code. There's
+            a few performance issues particularly when lots of damage events are on the screen. The most irritating one I've found
+            so far is that scrolling down the page will cause the cursor to not align properly with the sim window making clicking
+            on menu objects a pain in the ass.
+            </p>
+
+            <p class="quick-text">
+            If you find a particularly crappy bug feel free to message me and it will get added to the list.
+            </p>
+
+
+        
+            </div>
+        </div>
+
+
+    <!-- FOOTER SECTION -->
+    <div id="lemondrop-footer" class="container">
+
+        <div class="row">
+            <ul id="social-links">
+
+                <li class="social-icon"><a href="#"><i class="fas fa-envelope-square"></i></a></li>
+                <li class="social-icon"><a href="#"><i class="fas fa-code-branch"></i></a></li>
+
+            </ul>
+        </div>
+
+        <div class="row">
+
+            <div id="footer-legal">
+                <p>Garrow's Gladiator Spec Re-Design</p>
+                <p>Credit to Kaasturovec for the background artwork</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript CDNs -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script type="text/JavaScript" src="resources/js/index.js"></script>
+
+            <script type="text/javascript" src="html5game/Gladiator Spec.js?VESZB=1739523791"></script>
+            <script>window.onload = GameMaker_Init;</script>
+
+</body>
+
+
+</html>

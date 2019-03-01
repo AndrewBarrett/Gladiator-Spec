@@ -1,0 +1,1 @@
+scr_keybind_mainbar(bar1but4modifier, bar1but4keybind);

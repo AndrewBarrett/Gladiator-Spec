@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_bloodywarfare;
+obj_talent_desc.text = "Bloody Warfare\nRequires Warrior (Glad)\nRequires Level 45\n\nRiposte's bleed effect deals 20% increased damage and has an additional 10% chance to reset the cooldown of Shield Charge.";

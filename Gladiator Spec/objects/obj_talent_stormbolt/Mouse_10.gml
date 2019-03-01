@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_stormbolt;
+obj_talent_desc.text = "Stormbolt\n20yd range\nInstant    30s Cooldown\nRequires Warrior (Arms)\nRequires Level 30\n\nHurls your weapon at an enemy, causing (16.38% of Attack Power) physical damage and stunning them for 4 sec.";

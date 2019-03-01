@@ -1,0 +1,1 @@
+ragebarx = 0;

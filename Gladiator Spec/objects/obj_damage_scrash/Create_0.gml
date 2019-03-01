@@ -1,0 +1,1 @@
+localdamage = 0;

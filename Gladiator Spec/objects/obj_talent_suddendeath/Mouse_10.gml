@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_suddendeath;
+obj_talent_desc.text = "Sudden Death\nRequires Warrior (Arms)\nRequires Level 15\nApproximately 2.5 procs per minute\n\nYour damaging melee abilities have a chance to make your next Execute cost no Rage, be usable on any target regardless of their health, and deal damage as if you spent 40 rage.";

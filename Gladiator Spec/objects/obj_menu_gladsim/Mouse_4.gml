@@ -1,0 +1,1 @@
+room_goto(room1_gladspec);

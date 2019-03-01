@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_warmachine;
+obj_talent_desc.text = "War Machine\nRequires Warrior (Glad)\nRequires Level 15\n\nYour auto attacks generate 10% more Rage. Killing an enemy instantly generates 20 rage, and increases your movement speed by 30% for 8 sec.";

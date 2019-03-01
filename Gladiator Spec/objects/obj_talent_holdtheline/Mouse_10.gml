@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_holdtheline;
+obj_talent_desc.text = "Hold the Line\nRequires Warrior (Glad)\nRequires Level 60\nChanneled\n\nChanneled ability that grants you and all allies behind you 20% damage reduction for 6 seconds.";

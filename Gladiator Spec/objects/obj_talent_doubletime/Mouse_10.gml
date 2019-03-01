@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_doubletime;
+obj_talent_desc.text = "Double Time\nRequires Warrior (Glad)\nRequires Level 30\n\nIncreases the maximum number of charges on Charge by 1, and reduces its cooldown by 3 seconds.";

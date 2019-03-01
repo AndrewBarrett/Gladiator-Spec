@@ -1,0 +1,1 @@
+healthbarx = 0;

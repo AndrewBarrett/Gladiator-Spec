@@ -1,0 +1,410 @@
+/* ----------------------------------------*/
+/* CSS NOTES */
+/* ----------------------------------------*/
+
+/*
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Nova Flat', cursive;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Acme', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+
+
+/* ----------------------------------------*/
+/* DEFAULT ELEMENTS */
+/* ----------------------------------------*/
+
+*{
+
+    font-family: 'Acme', sans-serif;
+    text-shadow: -1px 0 #00000088, 0 1px #00000088, 1px 0 #00000088, 0 -1px #00000088;
+    color:#e3f5fd !important;
+
+}
+
+h1{
+
+    text-align: center;
+}
+
+h4{
+    margin-top: 6px;
+    text-align: left;
+}
+
+body{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(images/goldshire-background.png);
+    background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+}
+
+
+
+/* ----------------------------------------*/
+/* NAVBAR SECTION */
+/* ----------------------------------------*/
+
+#gladiator-navbar{
+
+    margin-top: 10px;
+        border-radius: 4px;
+    border: 2px #00000088 solid;
+    background-color: #2d3436aa !important;
+    
+}
+
+.bg-dark{
+
+    background-color: #00000000 !important;
+}
+
+#navbar-logo{
+
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    border: 2px solid #b2bec3;
+}
+
+/* ----------------------------------------*/
+/* JUMBOTRON SECTION */
+/* ----------------------------------------*/
+
+#alternate-jumbotron{
+
+    height:100vh;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#alternate-jumbotron-text{
+
+    margin-top: 120px;
+    transform: translate(0, 20%);
+}
+
+.jumbotron-hr{
+
+    background-color: #b2bec3;
+    height: 4px;
+    border: 1px #00000088 solid;
+    border-radius: 4px;
+    width: 40%;
+}
+
+.jumbotron-text-one{
+
+    font-size: 54px;
+}
+
+.jumbotron-text-two{
+
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+/* ----------------------------------------*/
+/* ABOUT SECTION */
+/* ----------------------------------------*/
+
+#about-container{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    
+    text-align: center;
+    background-color: #2d3436aa;
+
+    border: 2px #00000088 solid;
+    border-radius: 5px;
+
+
+           
+}
+
+#image-container{
+
+    display: flex;
+          
+          justify-content: center;
+          flex-flow: column;
+}
+
+#about-me-image{
+
+    width: 240px;
+    height: 240px;
+
+    border: 2px #00000066 solid;
+    border-radius: 5px;
+    
+   
+    display: inline-block;
+
+    margin: auto;
+
+}
+#about-text-container{
+    
+    
+
+    text-align: left;
+
+}
+
+.about-text{
+
+        font-family: 'Merriweather Sans', sans-serif !important;
+}
+
+.guide-image{
+
+    margin-bottom: 6px;
+}
+
+/* ----------------------------------------*/
+/* QUICK START*/
+/* ----------------------------------------*/
+
+#quick-container{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    
+    text-align: left;
+    background-color: #2d3436aa;
+
+    border: 2px #00000088 solid;
+    border-radius: 5px;
+
+
+           
+}
+
+.quick-text{
+
+        font-family: 'Merriweather Sans', sans-serif !important;
+}
+
+.desc-text{
+
+        font-family: 'Merriweather Sans', sans-serif !important;
+        line-height: 1.2;
+}
+
+/* ----------------------------------------*/
+/* GAME CONTAINER */
+/* ----------------------------------------*/
+
+#game-container{
+
+    background-color: #2d3436aa;
+
+    border: 2px #00000088 solid;
+    border-radius: 5px;
+
+    display: flex;
+    margin-top: 60px;
+    padding-top: 8px;
+    justify-content: center;
+}
+/* ----------------------------------------*/
+/* EXAMPLE SECTION */
+/* ----------------------------------------*/
+
+#example-container{
+
+    background-color: #2d3436aa;
+    border: 2px #00000088 solid;
+    border-radius: 5px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-deck{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card{
+
+
+    padding: 4px;
+    background-color: #636e7255;
+
+}
+
+.card-footer{
+
+    border-color: #e3f5fd66;
+}
+
+.image-small{
+
+    width: 100%;
+}
+
+/* ----------------------------------------*/
+/* PORTFOLIO SECTION */
+/* ----------------------------------------*/
+
+#portfolio-container{
+
+    background-color: #2d3436aa;
+    border: 2px #00000088 solid;
+    border-radius: 5px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+/* ----------------------------------------*/
+/* CONTACT SECTION */
+/* ----------------------------------------*/
+
+h3{
+
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+#contact-container{
+
+    background-color: #2d3436aa;
+    padding-top:10px;
+    padding-bottom: 20px;
+
+    border: 2px #00000088 solid;
+    border-radius: 5px;
+
+    transform: translate(0, 0%);
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#contact-form{
+
+}
+
+#contact-error-div{
+
+    display: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#name-error{
+
+    display: none;
+}
+
+#email-error{
+
+    display: none;
+}
+
+#message-error{
+
+    display: none;
+}
+
+.error-message{
+
+    margin-bottom: 2px;
+}
+
+
+
+#contact-error-message{
+
+    margin-bottom: 20px;
+}
+
+.contact-form-textarea{
+
+
+    border-color: #00000088;
+    background-color: #2d3436aa !important;
+}
+
+#inputMessage{
+
+    resize: none;
+    height: 200px;
+    
+}
+
+#submit-button-div{
+
+    text-align: center;
+}
+
+#contact-submit-button{
+
+    margin: 16px 0;
+
+}
+
+/* ----------------------------------------*/
+/* FOOTER SECTION */
+/* ----------------------------------------*/
+
+#lemondrop-footer{
+
+    background-color: #2d3436aa;
+    border: 2px #00000088 solid;
+    border-radius: 5px;
+
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#social-links{
+
+    list-style: none;
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.social-icon{
+    display: inline-block;
+    margin: 0 4px;
+
+}
+
+#footer-legal{
+
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+}

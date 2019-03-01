@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_devastation;
+obj_talent_desc.text = "Devastation\nRequires Warrior (Glad)\nRequires Level 15\n\nEach stack of devastate also increases the damage of heroic strike by 10% and causes it to hit a second nearby target.";
