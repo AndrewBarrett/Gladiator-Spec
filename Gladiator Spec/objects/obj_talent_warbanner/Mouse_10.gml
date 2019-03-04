@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_warbanner;
+obj_talent_desc.text = "War Banner\nRequires Warrior (Glad)\nRequires Level 60\n\nThrows a War Banner down at the warrior's current location. Grants allies within 15 yards 20% crit, haste, and mastery for 30 seconds. Causes exhaustion and does not stack with Heroism or similar effects.";

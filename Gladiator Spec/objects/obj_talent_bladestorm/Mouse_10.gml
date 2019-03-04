@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_bladestorm;
+obj_talent_desc.text = "Bladestorm\nRequires Warrior (Glad)\nRequires Level 90\n\nBecome an unstoppable storm of destructive force, striking all targets within 8 yards with both weapons for [5 * ((50% of Attack power)% + (50% of Attack power)%)] Physical damage over 4 sec.\n\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and avoid attacks.";

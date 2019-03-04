@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_angermanagement;
+obj_talent_desc.text = "Anger Management\nRequires Warrior (Glad)\nRequires Level 100\n\nEvery 20 rage you spend reduces the cooldown of Shield Crash and [Main Cooldown] by 1 second.";

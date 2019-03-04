@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_heroicmoment;
+obj_talent_desc.text = "Heroic Moment\nRequires Warrior (Glad)\nRequires Level 90\n\nHeroic Strike deals 300% additional damage while Shield Crash is active.";

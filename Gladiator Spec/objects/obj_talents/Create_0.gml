@@ -31,6 +31,7 @@ row2talent3 = false;
 globalvar talent_stormbolt;
 talent_stormbolt = false;
 
+
 // RANK 3 TALENTS
 globalvar row3talent1;
 row3talent1 = false;
@@ -47,11 +48,12 @@ row3talent3 = false;
 globalvar talent_grievouswound;
 talent_grievouswound = false;
 
+
 // RANK 4 TALENTS
 globalvar row4talent1;
 row4talent1 = false;
-globalvar talent_secondwind;
-talent_secondwind = false;
+globalvar talent_warbanner;
+talent_warbanner = false;
 
 globalvar row4talent2;
 row4talent2 = false;
@@ -63,32 +65,55 @@ row4talent3 = false;
 globalvar talent_holdtheline;
 talent_holdtheline = false;
 
+
 // RANK 5 TALENTS
 globalvar row5talent1;
 row5talent1 = false;
+globalvar talent_trauma;
+talent_trauma = false;
 
 globalvar row5talent2;
 row5talent2 = false;
+globalvar talent_massacre;
+talent_massacre = false;
 
 globalvar row5talent3;
 row5talent3 = false;
+globalvar talent_cleave;
+talent_cleave = false;
+
 
 // RANK 6 TALENTS
 globalvar row6talent1;
 row6talent1 = false;
+globalvar talent_heroicmoment;
+talent_heroicmoment = false;
 
 globalvar row6talent2;
 row6talent2 = false;
+globalvar talent_dragonroar;
+talent_dragonroar = false;
 
 globalvar row6talent3;
 row6talent3 = false;
+globalvar talent_bladestorm;
+talent_bladestorm = false;
+
 
 // RANK 7 TALENTS
 globalvar row7talent1;
 row7talent1 = false;
+globalvar talent_angermanagement;
+talent_angermanagement = false;
+
 
 globalvar row7talent2;
 row7talent2 = false;
+globalvar talent_lordofthearena;
+talent_lordofthearena = false;
+
 
 globalvar row7talent3;
 row7talent3 = false;
+globalvar talent_igniteweapon;
+talent_igniteweapon = false;

@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_cleave;
+obj_talent_desc.text = "Cleave\nRequires Warrior (Glad)\nRequires Level 75\n\nIf Cleave hits 3 or more targets it causes any Riposte effect on each target to immediately deal 40% of its remaining damage.";

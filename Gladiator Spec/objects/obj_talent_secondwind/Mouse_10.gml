@@ -1,2 +1,0 @@
-obj_talent_holder.sprite_index = spr_talent_secondwind;
-obj_talent_desc.text = "Second Wind\nRequires Warrior (Glad)\nRequires Level 60\n\nRestores 6% health every 1 sec when you have not taken damage for 5 sec.";

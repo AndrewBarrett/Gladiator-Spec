@@ -1,0 +1,2 @@
+obj_talent_holder.sprite_index = spr_talent_dragonroar;
+obj_talent_desc.text = "Dragon Roar\nRequires Warrior (Glad)\nRequires Level 90\n\nRoar explosively, dealing (170% of Attack power) Physical damage to all enemies within 12 yds and reducing their movement speed by 50% for 6 sec.";

@@ -1,28 +1,28 @@
 {
-    "id": "a7db917c-a5c7-4192-804b-2f5bd980251c",
+    "id": "e9301cdc-1393-405f-a0f7-abdc6396f50a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_talent_secondwind",
+    "name": "obj_talent_lordofthearena",
     "eventList": [
         {
-            "id": "0ec23d53-876e-4560-8a09-d8b612336638",
+            "id": "b90aecdd-bdc8-40a4-b28a-6011a1df7acf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 6,
-            "m_owner": "a7db917c-a5c7-4192-804b-2f5bd980251c"
+            "m_owner": "e9301cdc-1393-405f-a0f7-abdc6396f50a"
         },
         {
-            "id": "07ddc396-e15d-4bfd-a7b7-6019f844db24",
+            "id": "cfaed4a8-92cc-48a1-8344-857754f91daa",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 10,
             "eventtype": 6,
-            "m_owner": "a7db917c-a5c7-4192-804b-2f5bd980251c"
+            "m_owner": "e9301cdc-1393-405f-a0f7-abdc6396f50a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "80cf1877-2efb-456e-aca0-f39e06bf3152",
+    "spriteId": "e7e4c114-1268-4200-8ed6-9863373eb5da",
     "visible": true
 }
